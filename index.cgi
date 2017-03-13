@@ -4,10 +4,9 @@
 # Media Stalker                                                 #
 #################################################################
 # Track your CDs/DVDs.                                          #
-# http://sourceforge.net/projects/mediastalker                  #
-#                                                               #
-# Report Bugs/Suggestions to alasdair@alasdairkeyes.me.uk       #
+# https://github.com/alasdairkeyes/mediastalker                 #
 # (C) 2008 Alasdair Keyes                                       #
+# Project no longer in development                              #
 #                                                               #
 # Released under the same license as Perl itself                #
 #################################################################
@@ -991,7 +990,7 @@ if (($mode eq 'view' || ($mode eq "delete" && $username eq "admin") ) && $item) 
     $content .= "\t\t\t\t</table>";
     $content .= "<a href='#top'>Back to Top</a>";
 }
-$content .= "<br/><h4>Media Stalker v$version - <a href='http://sourceforge.net/projects/mediastalker/'>http://sourceforge.net/projects/mediastalker/</a></h4>";
+$content .= "<br/><h4>Media Stalker v$version - <a href='https://github.com/alasdairkeyes/mediastalker'>https://github.com/alasdairkeyes/mediastalker</a></h4>";
 
 my $log_text = "<a href='index.cgi?mode=login'>Login</a><br/>";
 if ($username eq "admin") {
